@@ -62,3 +62,70 @@ To get a callback when the user enters the otp make use of OnOtpCompletionListen
       }
   });
 ```
+
+# PinView Attributes
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>app:OtpItemCount</td>
+    <td>sets the length of the otp view</td>
+  </tr>
+  <tr>
+    <td>app:OtpItemWidth</td>
+    <td>sets the width of each item inside the otp view</td>
+  </tr>
+  <tr>
+    <td>app:OtpItemHeight</td>
+    <td>sets the height of each item inside the otp view</td>
+  </tr>
+	<tr>
+    <td>app:OtpItemSpacing</td>
+    <td>sets the space between each item in otp view</td>
+  </tr>
+	<tr>
+    <td>app:OtpLineWidth</td>
+    <td>sets the line border width</td>
+  </tr>
+  <tr>
+    <td>app:OtpLineColor</td>
+    <td>sets the color to the line border</td>
+  </tr>
+  <tr>
+    <td>app:OtpViewType</td>
+    <td>sets the view type of the otp view it can be either ```rectangle```, ```line``` or ```none```</td>
+  </tr>
+  <tr>
+    <td>app:OtpCursorVisible</td>
+    <td>sets the visibility of the cursor</td>
+  </tr>
+	<tr>
+    <td>app:OtpCursorColor</td>
+    <td>sets the color of the cursor</td>
+  </tr>
+	<tr>
+    <td>app:OtpCursorWidth</td>
+    <td>sets width of the cursor</td>
+  </tr>
+	<tr>
+    <td>app:OtpItemBackground</td>
+    <td>sets the background color of each item in the otp view</td>
+  </tr>
+	<tr>
+    <td>app:OtpHideLineWhenFilled</td>
+    <td>toggles the line border</td>
+  </tr>
+	<tr>
+    <td>app:OtpRtlTextDirection</td>
+    <td>toggles RTL text direction</td>
+  </tr>
+	<tr>
+    <td>app:OtpState_filled</td>
+    <td>toggles the option fill the field after data has been entered (Style of file can we set with a drawable assigned using itemBackground)</td>
+  </tr>	
+</table>
