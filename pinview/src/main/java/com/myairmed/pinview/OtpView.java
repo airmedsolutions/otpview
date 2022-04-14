@@ -206,9 +206,7 @@ public class OtpView extends AppCompatEditText {
 
     @Override
     public void setOnClickListener(@Nullable OnClickListener l) {
-        if (start != text.length()) {
-            moveSelectionToEnd();
-        }
+        moveSelectionToEnd();
         makeBlink();
     }
 
